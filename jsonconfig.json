@@ -1,0 +1,58 @@
+{
+  "pages": [
+    {
+      "pageLabel": "Backdoor Controller",
+      "timeout": 2,
+      "compactHeight": false,
+      "controls": [
+        {
+          "button1": "Open Doors with Short Timer 🏃",
+          "cmd1": "http://demosite.com/phpfileThatRunsScript.php",
+          "cmd1Id": "Open Short",
+          "headline1": "Kitchen and Screen Door 🚪",
+          "sizeType": "large"
+        },
+        {
+          "button1": "Open Doors with Long Timer ⏲️",
+          "cmd1": "http://demosite.com/phpfileThatRunsScript.php",
+          "cmd1Id": "Open Long",
+          "headline1": "One button press = 1 minute of door open",
+          "sizeType": "large"
+        }
+
+    ]
+  }
+],
+    
+  "pagesWatch": [
+    {
+      "glanceErrorText": "Status not available",
+      "glanceTextUrl": "http://demosite.com/phpfileThatRunsScript.php",
+      "hapticNetworkResponseFeedback": true,
+      "pageLabel": "Door Control 🚪",
+      "timeout": 2,
+      "controls": [
+        {
+          "contextMenuCmd1": "http://demosite.com/phpfileThatRunsScript.php",
+          "contextMenuCmd2": "http://demosite.com/phpfileThatRunsScript.php",
+          "contextMenuIcon1": "Accept",
+          "contextMenuIcon2": "Decline",
+          "contextMenuLabel1": "Open Short",
+          "contextMenuLabel2": "Open Long"
+        },
+        {
+          "button1": "Open Short 🏃",
+          "cmd1": "http://demosite.com/phpfileThatRunsScript.php",
+          "color": "cyan",
+          "sizeType": "large"
+        },
+        {
+          "button1": "Open Long ⏲️",
+          "cmd1": "http://demosite.com/phpfileThatRunsScript.php",
+          "color": "green",
+          "sizeType": "large"
+        }
+      ]
+    }
+  ]
+}
